@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Net Promoter Score</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ratingCard">
+        <img src="./images/customers.png" class="image" alt="costumers" />
+        <h1>Developer</h1>
+        <main>
+          <p>
+            Em uma escala de 0 a 10, o quanto você recomendaria a empresa
+            DEVELOPER para um amigo ou colega?
+          </p>
+        </main>
+        <div class="buttons">
+          <button class="btn" id="detractor" data-number>0</button>
+          <button class="btn" id="detractor" data-number>1</button>
+          <button class="btn" id="detractor" data-number>2</button>
+          <button class="btn" id="detractor" data-number>3</button>
+          <button class="btn" id="detractor" data-number>4</button>
+          <button class="btn" id="detractor" data-number>5</button>
+          <button class="btn" id="detractor" data-number>6</button>
+          <button class="btn" id="passive" data-number>7</button>
+          <button class="btn" id="passive" data-number>8</button>
+          <button class="btn" id="promoters" data-number>9</button>
+          <button class="btn" id="promoters" data-number>10</button>
+        </div>
+        <footer>
+          <button class="submit">Enviar</button>
+        </footer>
+      </div>
+      <div class="thanksCard hidden">
+        <img src="./images/thumbsup.png" alt="thanks" class="thumbs" />
+        <p class="select">Você escolheu <span id="rating"></span> de 10</p>
+        <h1>Obrigado!</h1>
+        <p>
+          Nós apreciamos que tenha tirado um tempo para votar. Estaremos
+          evoluindo para melhor atendê-lo.
+        </p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
