@@ -33,6 +33,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 27rem;
 }
 h1 {
   font-weight: bolder;
@@ -117,3 +118,14 @@ p {
   background-color: black;
   color: orange;
 }
+@media (max-width: 425px) {
+  .container {
+    margin-top: 9rem;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    margin-top: 12rem;
+  }
+}
+
