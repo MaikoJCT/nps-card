@@ -120,7 +120,7 @@ p {
 }
 @media (max-width: 425px) {
   .container {
-    margin-top: 9rem;
+    margin-top: 7rem;
   }
 }
 @media (max-width: 320px) {
